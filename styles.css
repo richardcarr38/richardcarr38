@@ -1,0 +1,30 @@
+h1 {color: navy}
+
+body {
+	background-color: gray; 
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	border-style: solid; 
+}
+
+h1 { font-size: 50px;
+	font-weight: bold;
+	color: navy;
+}
+
+p { font-size: 20px;
+	}
+
+h2 { font-size: 150%; font-style: italic; 
+	text-decoration: underline;
+}
+
+nav li { display: inline-block;
+		border: 2px solid black; 
+		padding: 10px;
+		margin: 5px;
+		background: white;}
+		
+a { color: darkblue;
+	text-decoration: none;}
+a:hover {color: red; }
