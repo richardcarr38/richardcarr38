@@ -4,7 +4,8 @@
 		<title>First Web Page</title>
 		
 	<style>
-h1 {color: navy}
+h1 {color: navy;
+	font-size: 60px;}
 
 body {
 	background-color: gray; 
@@ -17,6 +18,13 @@ h1 { font-size: 50px;
 	font-weight: bold;
 	color: navy;
 }
+
+.picture {
+	float: left;
+		}
+.header {
+	float: right;
+		}
 
 p { font-size: 20px;
 	}
@@ -31,8 +39,9 @@ nav li { display: inline-block;
 		margin: 5px;
 		background: white;}
 		
-a { color: darkblue;
+a {	color: darkblue;
 	text-decoration: none;}
+
 a:hover {color: red; }
 		
 		</style>
@@ -42,13 +51,15 @@ a:hover {color: red; }
 	
 
 
-
+<div class="header">
 <h1>Richard Carr</h1>
+		</div>
+		
 <h2>Student at Maine Business School</h2>
 
-<p><h3>
+<div class="picture">
 	<IMG SRC="file:///Users/PERLJAM/Desktop/richcarr.JPG" height="450">
-</h3></p>
+		</div>
 
 
 <p><i>Welcome</i> to my home page!</p> 
@@ -66,6 +77,6 @@ Links to:
 
 
 
-
+<body background= "fine-gray-background-pattern.jpg">
 	</body>
 </html>
